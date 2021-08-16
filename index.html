@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Vivian Li </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+     <section class="homepage">
+
+         <div class="navbar">
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">ABOUT ME</a></li>
+                    <li><a href="#">MY WORK</a></li>
+                    <li><a href="#">EXTRAS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+                <img src="./Images/Icon ionic-ios-close.svg" class="close-icon" onclick="closemenu()">
+            </nav>
+         </div>
+         <img src="./Images/hamburger.svg" class="menu-icon" onclick="openmenu()">
+         <div class="logo">
+            <img src="./Images/Asset 2.svg" alt="logo">
+        </div>
+
+     <div class="illustration">
+        <img src="Images/cloud1.svg" id="cloud-1">
+         <div class="text">
+         <p>I am a problem solver...
+             <br>
+             I am a creative soul...
+         </p>
+         <h1 class="intro">I am a UX/UI designer.</h1>
+         </div>
+         <img src="Images/cloud2.svg"id="cloud-2">
+         <div class="image">
+            <img src="Images/illustration.svg" id="illustration" alt="illustration">
+            <img src="Images/Icon ionic-ios-arrow-down.svg" id="arrow"alt="arrow">
+         </div>
+     </div>
+
+ 
+     <div class="layout">
+
+        <p class="Text">
+          I come from a background in Architecture, where I have developed an extensive understanding of the processes, concepts and theories of design.</p>
+      
+        <div class="vertical">
+          <h5 class="ln">Based in Sydney 33.8688° S, 151.2093° E</h5>
+        </div>
+      
+        <p class="Text">
+          I take pride in understanding user behavior and translating that information to craft human-centered products.
+        </p>
+      
+        <div class="vertical2">
+          <h4 class="ln">About me</h4>
+        </div>
+      
+        <p class="Text">
+          I appreciate the small things in life and I pay close attention to the small yet powerful details that can elevate good designs to delightful designs.
+        </p>
+      
+      </div>
+      <!--
+     <section class="mywork">
+         <div class="project1">
+         <h1>01</h1>
+         <img src="Images/project1.svg" alt="Project1">
+         <a class="case study"href="https://liviviannn.github.io/WK20/">
+         <button class="primary">Explore</button>
+        </a>
+         </div>
+         <div class="project2">
+            <h1>02</h1>
+            <img src="Images/project2.svg" alt="Project2">
+            <button class="primary">Explore</button>
+         </div>
+         <div class="project3">
+            <h1>03</h1>
+            <img src="Images/project3.svg" alt="Project3">
+            <button class="primary">Explore</button>
+         </div>
+         <div class="project4">
+            <h1>04</h1>
+            <img src="Images/project4.svg" alt="Project4">
+            <button class="primary">Explore</button>
+         </div>
+     </section>
+        <script src="" async defer></script>
+      -->
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: red; border:1px solid">col-md-3</div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: red; border:1px solid">col-md-3</div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: red; border:1px solid">col-md-3</div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: red; border:1px solid">col-md-3</div>
+    </div>
+        
+    <section class="footer">
+        <div class="bottom-container">
+            <h2 class="footertext">Let's get in touch!</h2>
+            <div class="icons">
+                <a class="email" href="mailto: vivianli1116@outlook.com">
+                    <img src="Images/Icon material-email.svg" id ="email" alt="email">
+                </a>
+                <a class="linkedin" href="https://www.linkedin.com/in/vivian-li-503a10196/">
+                    <img src="Images/Icon awesome-linkedin.svg" id="linkedin" alt="linkedin">    
+                </a>
+            </div>
+            <img src="Images/tree.svg" id="tree" alt="tree">
+            <p>Designed and developed by Vivian Li @2021 </p>
+        </div>
+    </section>
+
+    <script>
+        var menu = document.getElementById("menu");
+
+        function closemenu(){
+            menu.style.top="-100vh";
+        }
+
+        function openmenu(){
+            menu.style.top="0";
+        
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+   <script src="index.js"></script>
+
+   </body>
+</html>
