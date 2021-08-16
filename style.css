@@ -519,15 +519,8 @@ animation: arrow 3s infinite;
     }
   }
 
-  @media only screen and (max-width: 600px) {
-    .layout {
-      flex-direction: column;
-    }
-  /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-nav{
-	top: -30vh;
- 
+    nav ul{
+        margin-top: -100px;
 
 }
-
