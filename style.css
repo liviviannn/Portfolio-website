@@ -290,7 +290,7 @@ animation: arrow 2s infinite;
   @media only screen and (max-width: 600px) {
     .layout {
       flex-direction: column;
-      margin: auto;
+      margin: auto 0px;
     }
     .vertical:nth-child(2) {
       display: none;
@@ -325,6 +325,7 @@ animation: arrow 2s infinite;
     #cloud-1{
         width: 30%;
         margin-left: 230px;
+        z-index: -6;
     }
 
     #cloud-2{
@@ -333,8 +334,6 @@ animation: arrow 2s infinite;
 
     }
   }
-
-
 
 
 /*My project*/
