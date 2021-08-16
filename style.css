@@ -290,6 +290,7 @@ animation: arrow 2s infinite;
   @media only screen and (max-width: 600px) {
     .layout {
       flex-direction: column;
+      margin: auto;
     }
     .vertical:nth-child(2) {
       display: none;
@@ -301,7 +302,7 @@ animation: arrow 2s infinite;
    
     #illustration{
         width: 80%;
-        margin-left: 70px;
+        margin:auto;
     }
 
     .logo{
@@ -323,12 +324,12 @@ animation: arrow 2s infinite;
 
     #cloud-1{
         width: 30%;
-        padding-top:100px;
-        margin-left: 260px;
+        margin-left: 230px;
     }
+
     #cloud-2{
         margin-left:50px;
-        width: 30%;
+        width: 25%;
 
     }
   }
