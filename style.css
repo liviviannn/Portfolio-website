@@ -518,7 +518,3 @@ animation: arrow 3s infinite;
     }
   }
 
-  @media only screen and (max-width: 600px) {
-    .layout {
-      flex-direction: column;
-    }
