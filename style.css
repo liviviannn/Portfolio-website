@@ -523,3 +523,13 @@ animation: arrow 3s infinite;
     .layout {
       flex-direction: column;
     }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .nav ul li{
+        list-style:none;
+        margin:0px;
+        justify-content: center;  
+        padding:20px 0px;
+        margin-top: -200px;
+    }
+}
