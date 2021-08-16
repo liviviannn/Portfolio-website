@@ -323,10 +323,8 @@ animation: arrow 2s infinite;
 
     #cloud-1{
         width: 30%;
-        margin-left:260px;
-        margin-top: 100px;
-        display: inline-block;
-        padding-top:0px;
+        padding-top:100px;
+        margin-left: 260px;
     }
     #cloud-2{
         margin-left:50px;
